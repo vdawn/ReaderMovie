@@ -1,0 +1,46 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.7.2",
+	"appid": "wx5b215524dcfae253",
+	"projectname": "ReaderMovie",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "测试",
+					"pathName": "pages/post/post-detail/post-detail",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "测试1",
+					"pathName": "pages/post/post",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "电影主页",
+					"pathName": "pages/movies/movies"
+				}
+			]
+		}
+	}
+}

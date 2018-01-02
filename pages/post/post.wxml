@@ -1,0 +1,40 @@
+<!--pages/post/post.wxml-->
+<view>
+  <swiper indicator-dots="true">
+    <swiper-item>content1</swiper-item>
+    <swiper-item>content2</swiper-item>
+    <swiper-item>content3</swiper-item>
+  </swiper>
+
+  <view class='post-container'>
+    <view class='post-author-date'>
+      <image class='post-author'></image>
+      <text class='post-date'>Nov 18 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-image'></image>
+    <text class='post-content'>橘黄蟹正肥，品尝秋之味。啦啦啦啦啦啦啦啦啦啦啦啦啦。啦啦啦啦啦啦啦啦啦啦啦啦啦。啦啦啦啦啦啦啦啦啦啦啦啦啦爱啦啦啦绿啦奥啦绿啦绿绿绿绿绿</text>
+    <view class='post-like'>
+      <image class='post-like-image'></image>
+      <text class='post-like-font'>96</text>
+      <image class='post-like-image'></image>
+      <text class='post-like-font'>112</text>
+    </view>
+  </view>
+
+  <view class='post-container'>
+    <view class='post-author-date'>
+      <image class='post-author'></image>
+      <text class='post-date'>Nov 18 2016</text>
+    </view>
+    <text class='post-title'>正是虾肥蟹壮时</text>
+    <image class='post-image'></image>
+    <text class='post-content'>橘黄蟹正肥，品尝秋之味。啦啦啦啦啦啦啦啦啦啦啦啦啦。啦啦啦啦啦啦啦啦啦啦啦啦啦。啦啦啦啦啦啦啦啦啦啦啦啦啦爱啦啦啦绿啦奥啦绿啦绿绿绿绿绿</text>
+    <view class='post-like'>
+      <image class='post-like-image'></image>
+      <text class='post-like-font'>96</text>
+      <image class='post-like-image'></image>
+      <text class='post-like-font'>112</text>
+    </view>
+  </view>
+</view>
