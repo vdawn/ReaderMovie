@@ -36,9 +36,10 @@
 					"query": ""
 				},
 				{
-					"id": -1,
+					"id": 2,
 					"name": "电影主页",
-					"pathName": "pages/movies/movies"
+					"pathName": "pages/movies/movies",
+					"query": ""
 				}
 			]
 		}
