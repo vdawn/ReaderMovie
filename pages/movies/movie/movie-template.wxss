@@ -8,7 +8,6 @@
   width:200rpx;
   height:270rpx;
   padding-bottom:20rpx;
-  border:1px solid red;
 }
 .movie-title{
   margin-bottom:16rpx;

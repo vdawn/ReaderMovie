@@ -28,7 +28,6 @@
   width: 9rpx;
   height: 16rpx;
   /* vertical-align: middle; */
-  border: 1px solid blue;
 }
 
 .movies-container {

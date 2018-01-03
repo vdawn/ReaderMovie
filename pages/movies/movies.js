@@ -24,6 +24,7 @@ Page({
 
   /*封装成请求函数，用来访问豆瓣API */
   getMovieaListData: function (url) {
+    var that = this;
     wx.request({
       url: url,
       method: 'GET',
@@ -32,14 +33,36 @@ Page({
         "Content-Type": "json"
       },
       success: function (res) {
+        /*'请求成功' */
         console.log(res);
+        that.processDoubanData(res.data)
       },
       fail: function (error) {
-        consoel.log('请求失败' + error);
+        consoel.log('请求失败');
       },
-      complete: function () {
-
+    })
+  },
+  /*moviesDouban接收从上个函数传下来(即从豆瓣获取)的数据，用来做数据绑定
+    这里的moviesDouban相当于res.data */
+  processDoubanData: function (moviesDouban) {
+    /*movies用来接收新数组 */
+    var movies = [];
+    for (var idx in moviesDouban.subjects) {
+      var subject = moviesDouban.subjects[idx];
+      var title = subject.title;
+      if (title.length >= 6) {
+        title = title.substring(0, 6) + '...';
       }
+      var temp = {
+        title: title,
+        average: subject.rating.average,
+        coverageUrl: subject.images.large,
+        movieId: subject.id
+      }
+      movies.push(temp)
+    }
+    this.setData({
+      movies: movies
     })
   },
 
