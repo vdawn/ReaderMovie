@@ -1,0 +1,21 @@
+<!--pages/my/my.wxml-->
+<view>
+<view class='red'>
+   <text>头像</text>
+   <view >
+      <text class='revise' bindtap="detail">修改</text>
+   </view>
+</view>
+<view class='red'>
+   <text>昵称</text>
+    <view>
+      <text class='revise'>添加</text>
+   </view>
+</view>
+<view  class='red'>
+   <text>个性签名</text>
+    <view>
+      <text class='revise'>修改</text>
+   </view>
+</view>
+</view>

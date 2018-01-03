@@ -1,0 +1,12 @@
+/* pages/my/my.wxss */
+.red{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:100rpx;
+  line-height:100rpx;
+  border-bottom:1px solid #666;
+}
+.revise{
+  border:1px solid #999;
+}
