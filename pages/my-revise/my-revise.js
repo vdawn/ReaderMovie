@@ -1,10 +1,5 @@
-// pages/my/my.js
+// pages/my-revise/my-revise.js
 Page({
-  detail:function(){
-    wx.navigateTo({
-      url:'/pages/my/my-revise/my-revise'
-    })
-  },
 
   /**
    * 页面的初始数据
