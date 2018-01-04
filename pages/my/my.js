@@ -2,7 +2,7 @@
 Page({
   detail:function(){
     wx.navigateTo({
-      url:'/pages/my/my-revise/my-revise'
+      url:'/pages/my-revise/my-revise'
     })
   },
 
