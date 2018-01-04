@@ -1,9 +1,6 @@
 json配置文件相当于英雄的符文，天赋。
 
-压缩后不能超过1M
-页面跳转不能超过五级
 一层页面，二层页面
-
 《text》
 只有被text组件包围的文字才能长按选中
 支持转译
@@ -31,11 +28,15 @@ require(相对路径)
 ../../相对路径
 引入模板文件<import src="post/post-template.wxml">
 在开发者工具中如何直接打开文件夹
+template的使用：编写由小到大嵌套，渲染由大到小
 
-template的使用：
-由小到大嵌套
-
-
+》给父盒子设置，使两端对齐：
+   /* display: flex;
+      flex-direction: row;
+      justify-content:space-between; */
+》断网情况下走fail函数
+》从服务器RESTFul API里加载数据时需要在method下面设置header:{'Content-Type':'json'}  
+》
 
 
 
